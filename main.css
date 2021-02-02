@@ -1,0 +1,45 @@
+@media print, screen and (min-width:640px) {
+    html {
+        background-color: rgb(175, 255, 251);
+    }
+    .title_1 {
+        display: flex;
+        justify-content: center;
+    }
+    .title_2 {
+        margin-top: 3em;
+    }
+    .title_3 {
+        display: flex;
+        justify-content: center;
+    }
+    .ul-font_1 {
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .box_p {
+        display: flex;
+        
+    }
+    .box {
+        width: 700px;
+        height: 300px;
+    }
+    .pic_1 {
+        margin-top: 5px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .pic_2 {
+        width: 32.0vw;
+        height: 18.0vw;
+    }
+    .pic_3 {
+        width: 64.0vw;
+        height: 36.0vw;
+    }
+    .YT_icon {
+        width: 134.5px;
+        height: 93.5px;
+    }
+}

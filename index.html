@@ -3,14 +3,13 @@
 
 <head>
     <title>ぴこぴこクラン 公式サイト</title>
-
     <meta charset="utf-8">
     <meta name="description" content="ぴこぴこくらん">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" media="(min-width: 640px)" href="css/main.css">
     <link rel="stylesheet" media="(max-width: 640px)" href="css/phone.css">
-    
+
     <link rel="icon" type="image/png" href="pic/icon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="pic/icon_phone.png">
 </head>
@@ -32,25 +31,35 @@
 
     <div id="member">
         <h1 class="title_1">
-            <div>メンバー紹介</div>
+            <div onclick="obj=document.getElementById('open').style; obj.display=(obj.display=='none')?'block':'none';">
+                <a style="cursor:pointer;">▼ メンバー紹介 ▼</a>
+            </div>
         </h1>
-        <div class="pic_4">
-            <div class="pic_1">
-                <div><img src="pic/ねころたん.png" class="pic_2"></div>
-                <div><img src="pic/エクレァ.png" class="pic_2"></div>
-                <div><img src="pic/うの.png" class="pic_2"></div>
-                <div><img src="pic/ごりもっち.png" class="pic_2"></div>
-            </div>
-            <div class="pic_1">
-                <div><img src="pic/なちた.png" class="pic_2"></div>
-                <div><img src="pic/コン.png" class="pic_2"></div>
-                <div><img src="pic/ゾムニキ.png" class="pic_2"></div>
-                <div><img src="pic/はせじゅん.png" class="pic_2"></div>
-            </div>
-            <div class="pic_1">
-                <div><img src="pic/のあ.png" class="pic_2"></div>
-                <div><img src="pic/はい.png" class="pic_2"></div>
-                <div><img src="pic/よっしー。.png" class="pic_2"></div>
+        <div id="open" style="display:none;clear:both;">
+            <div class="pic_4">
+                <div class="pic_1">
+                    <div><img src="pic/member/ねころたん.png" class="pic_2"></div>
+                    <div><img src="pic/member/エクレァ.png" class="pic_2"></div>
+                    <div><img src="pic/member/うの.png" class="pic_2"></div>
+                    <div><img src="pic/member/ごりもっち.png" class="pic_2"></div>
+                </div>
+                <div class="pic_1">
+                    <div><img src="pic/member/なちた.png" class="pic_2"></div>
+                    <div><img src="pic/member/コン.png" class="pic_2"></div>
+                    <div><img src="pic/member/ゾムニキ.png" class="pic_2"></div>
+                    <div><img src="pic/member/はせじゅん.png" class="pic_2"></div>
+                </div>
+                <div class="pic_1">
+                    <div><img src="pic/member/のあ.png" class="pic_2"></div>
+                    <div><img src="pic/member/はい.png" class="pic_2"></div>
+                    <div><img src="pic/member/よっしー。.png" class="pic_2"></div>
+                    <div><img src="pic/member/にさ.png" class="pic_2"></div>
+                </div>
+                <div class="pic_1">
+                    <div><img src="pic/member/ましゃ.png" class="pic_2"></div>
+                    <div><img src="pic/member/なんとかなるよ.png" class="pic_2"></div>
+                    <div><img src="pic/member/ぽむ.png" class="pic_2"></div>
+                </div>
             </div>
         </div>
     </div>

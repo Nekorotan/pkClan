@@ -1,6 +1,7 @@
 @media print, screen and (min-width:640px) {
     html {
         background-color: rgb(175, 255, 251);
+        font-family: ヒラギノ角ゴシック;
     }
     h1 {
         border: 5px double #006992

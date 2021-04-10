@@ -1,0 +1,251 @@
+@media print, screen and (max-width:640px) {
+   /*  * {
+        outline: 1px solid red;
+    } */
+
+
+    /* Link */
+    a {
+        transition: color 0.5s linear;
+        text-decoration: none;
+        color: white;
+    }
+
+    .header a:hover {
+        color: black;
+        background: lightblue;
+    }
+
+    .footer a:hover {
+        color: black;
+        background: lightblue;
+    }
+
+    .main-member-explain-other a:hover {
+        color: black;
+        background: lightgray;
+        border-radius: 10px;
+    }
+
+    .main-sns a:hover img {
+        opacity: 0.5;
+    }
+
+    /* Body */
+    .body {
+        font-family: ヒラギノ角ゴシック;
+        background: rgb(255, 227, 201);
+    }
+
+    /* Header */
+    .header-heading {
+        text-align: center;
+        border-bottom: 5px solid rgb(150, 85, 0);
+    }
+
+    .header-list-ul {
+        display: flex;
+        background: rgb(255, 190, 105);
+        border: 2px solid rgb(150, 90, 0);
+    }
+
+    .header-list-ul-li {
+        text-align: center;
+        flex: 1;
+        border: 2px solid rgb(150, 90, 0);
+    }
+
+    /* Self */
+    .main-self {
+        background: white;
+    }
+
+    #main-self-title {
+        padding-left: 10px;
+        border-bottom: 2px solid rgb(150, 85, 0);
+    }
+
+    .main-self-photo {
+        /* display: flex; */
+        margin: 8px;
+    }
+
+    .main-self-photo img {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-self-photo-explain {
+        margin: 8px;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    .main-self-twitter-movie {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Member */
+    .main-member {
+        background: white;
+        padding-bottom: 2px;
+    }
+
+    #main-member-title {
+        padding-left: 10px;
+        border-bottom: 2px solid rgb(150, 85, 0);
+    }
+
+    /* ねころたん */
+    .main-member-explain-nekorotan {
+        display: flex;
+        background: lightblue;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .main-member-explain-nekorotan-self-name {
+        padding: 10px;
+        margin-top: 0px;
+        font-size: 25px;
+    }
+
+    .main-member-explain-nekorotan-self-discription {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .main-member-explain-nekorotan-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* エクレァ */
+    .main-member-explain-ekurea {
+        display: flex;
+        flex-direction: row-reverse;
+        background: rgb(255, 198, 91);
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .main-member-explain-ekurea-self-name {
+        padding: 10px;
+        margin-top: 0px;
+        font-size: 25px;
+        text-align: right;
+    }
+
+    .main-member-explain-ekurea-self-discription {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .main-member-explain-ekurea-self-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    /* Other */
+    .main-member-explain-other {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .main-member-explain-other-button {
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        background: gray;
+        border-radius: 10px;
+    }
+
+    /* joinClan */
+    .main-joinClan {
+        background: white;
+        padding-bottom: 5px;
+    }
+
+    #main-joinClan-title {
+        padding-left: 10px;
+        border-bottom: 2px solid rgb(150, 85, 0);
+    }
+
+    .main-joinClan-hunter-title {
+        padding-left: 10px;
+        margin: 10px;
+        border-bottom: 2px solid red;
+    }
+
+    .main-joinClan-hunter-ul-li {
+        font-size: 20px;
+    }
+
+    .main-joinClan-survivor-title {
+        padding-left: 10px;
+        margin: 10px;
+        border-bottom: 2px solid lightblue;
+    }
+
+    .main-joinClan-survivor-ul-li {
+        font-size: 20px;
+    }
+
+    /* SNS */
+    .main-sns {
+        background: white;
+        margin-bottom: 20px;
+    }
+
+    #main-sns-title {
+        padding-left: 10px;
+        border-bottom: 2px solid rgb(150, 85, 0);
+    }
+
+    .main-sns-link {
+        display: flex;
+    }
+
+    .main-sns-link-youtube {
+        margin: 10px;
+    }
+
+    .main-sns-link-youtube img {
+        width: 134.5px;
+        height: 93.5px;
+    }
+
+    .main-sns-link-twitter {
+        margin: 10px;
+    }
+
+    .main-sns-link-twitter img {
+        width: 134.5px;
+        height: 93.5px;
+    }
+
+    /* Aside */
+    .aside {
+        display: none;
+    }
+
+    /* Footer */
+    .footer-list-ul {
+        display: flex;
+        background: rgb(255, 190, 105);
+        border: 2px solid rgb(150, 90, 0);
+    }
+
+    .footer-list-ul-li {
+        text-align: center;
+        flex: 1;
+        border: 2px solid rgb(150, 90, 0);
+    }
+}
